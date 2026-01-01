@@ -100,6 +100,42 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                 </div>
             </section>
 
+            {/* The AuraLume Standard (Energy Certificate) */}
+            <section className="bg-black/20 border-y border-white/5 py-16 backdrop-blur-sm">
+                <div className="max-w-7xl mx-auto px-4 text-center">
+                    <h2 className="text-gold text-xs tracking-[0.3em] uppercase mb-12">The AuraLume Standard</h2>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="flex flex-col items-center space-y-4">
+                            <div className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold">
+                                <Sparkles size={20} />
+                            </div>
+                            <h3 className="font-serif text-lg text-starlight">Zero Karmic Debt</h3>
+                            <p className="text-sm text-starlight/60 max-w-xs font-light">
+                                100% Lab-Grown using Plasma technology. No human suffering, only pure light.
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center space-y-4">
+                            <div className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold">
+                                <Heart size={20} />
+                            </div>
+                            <h3 className="font-serif text-lg text-starlight">Diamond Frequency</h3>
+                            <p className="text-sm text-starlight/60 max-w-xs font-light">
+                                Every stone is cleansed with 528Hz Solfeggio frequencies before shipping.
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center space-y-4">
+                            <div className="w-12 h-12 rounded-full border border-gold/30 flex items-center justify-center text-gold">
+                                <Shield size={20} />
+                            </div>
+                            <h3 className="font-serif text-lg text-starlight">Indestructible Intention</h3>
+                            <p className="text-sm text-starlight/60 max-w-xs font-light">
+                                Diamond is the hardest material, locking your manifestation in place forever.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Products Grid */}
             <section className="max-w-7xl mx-auto px-4 py-20">
                 <h2 className="text-2xl font-serif mb-12 border-b border-white/10 pb-4">Available Pieces</h2>

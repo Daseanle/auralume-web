@@ -15,6 +15,7 @@ const collections = [
         icon: Sparkles,
         gradient: "from-amber-900/40 to-cosmos",
         image: "/images/product-necklace.png",
+        stripeUrl: "https://buy.stripe.com/test_abundance_299",
     },
     {
         id: "love",
@@ -25,6 +26,7 @@ const collections = [
         icon: Heart,
         gradient: "from-rose-900/40 to-cosmos",
         image: "/images/product-love.png",
+        stripeUrl: "https://buy.stripe.com/test_love_249",
     },
     {
         id: "protection",
@@ -35,6 +37,7 @@ const collections = [
         icon: Shield,
         gradient: "from-indigo-900/40 to-cosmos",
         image: "/images/product-red-string.png",
+        stripeUrl: "https://buy.stripe.com/test_protection_199",
     },
 ];
 
@@ -114,11 +117,11 @@ function ProductCard({ item, index }: { item: any; index: number }) {
                     <button
                         onClick={(e) => {
                             e.preventDefault();
-                            alert("Redirecting to Stripe Checkout...");
+                            window.location.href = item.stripeUrl;
                         }}
                         className="px-6 py-2 bg-gold text-cosmos text-xs tracking-[0.2em] font-serif uppercase hover:bg-white transition-colors shadow-[0_0_20px_rgba(212,175,55,0.4)]"
                     >
-                        Quick Buy
+                        Manifest Now
                     </button>
                 </div>
             </div>
