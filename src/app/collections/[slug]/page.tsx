@@ -15,8 +15,8 @@ const collections = {
         color: "text-amber-400",
         gradient: "from-amber-900/20 to-cosmos",
         products: [
-            { id: "a1", name: "North Star Pendant (0.2ct)", price: 299 },
-            { id: "a2", name: "Prosperity Studs", price: 199 },
+            { id: "a1", name: "North Star Pendant (0.2ct)", price: 299, image: "/images/product-necklace.png" },
+            { id: "a2", name: "Prosperity Studs", price: 199, image: "/images/product-abundance-studs.png" },
         ]
     },
     love: {
@@ -28,8 +28,8 @@ const collections = {
         color: "text-rose-400",
         gradient: "from-rose-900/20 to-cosmos",
         products: [
-            { id: "l1", name: "Heart Core Necklace (0.2ct)", price: 349 },
-            { id: "l2", name: "Soulmate Ring", price: 249 },
+            { id: "l1", name: "Heart Core Necklace (0.2ct)", price: 349, image: "/images/product-love.png" },
+            { id: "l2", name: "Soulmate Ring", price: 249, image: "/images/product-love-ring.png" },
         ]
     },
     protection: {
@@ -41,8 +41,8 @@ const collections = {
         color: "text-indigo-400",
         gradient: "from-indigo-900/20 to-cosmos",
         products: [
-            { id: "p1", name: "Red String Diamond Bracelet", price: 199 },
-            { id: "p2", name: "Aura Shield Pendant", price: 299 },
+            { id: "p1", name: "Red String Diamond Bracelet", price: 199, image: "/images/product-red-string.png" },
+            { id: "p2", name: "Aura Shield Pendant", price: 299, image: "/images/product-red-string.png" },
         ]
     }
 };
@@ -144,7 +144,7 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                         <div key={product.id} className="bg-white/5 border border-white/10 p-6 flex flex-col items-center hover:border-gold/30 transition-colors group">
                             <div className="w-full h-64 relative mb-6 bg-cosmos/50">
                                 <Image
-                                    src={collection.image}
+                                    src={product.image || collection.image}
                                     alt={product.name}
                                     fill
                                     className="object-contain p-4 group-hover:scale-105 transition-transform duration-500"

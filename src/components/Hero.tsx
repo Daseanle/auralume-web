@@ -1,12 +1,63 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
+import { useState } from "react";
 
 export default function Hero() {
+    const [isAligning, setIsAligning] = useState(false);
+
+    const handleManifest = (e: React.MouseEvent) => {
+        e.preventDefault();
+        setIsAligning(true);
+
+        setTimeout(() => {
+            setIsAligning(false);
+            const collectionsSection = document.getElementById("collections");
+            if (collectionsSection) {
+                collectionsSection.scrollIntoView({ behavior: "smooth" });
+            }
+        }, 1500);
+    };
+
     return (
         <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-cosmos">
+            {/* Loading Overlay */}
+            <AnimatePresence>
+                {isAligning && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="fixed inset-0 z-[100] bg-cosmos flex flex-col items-center justify-center"
+                    >
+                        <motion.div
+                            animate={{
+                                scale: [1, 1.2, 1],
+                                opacity: [0.5, 1, 0.5]
+                            }}
+                            transition={{
+                                duration: 1.5,
+                                repeat: Infinity,
+                                ease: "easeInOut"
+                            }}
+                            className="w-32 h-32 rounded-full bg-gold/20 blur-xl absolute"
+                        />
+                        <div className="relative z-10 text-center">
+                            <motion.div
+                                initial={{ scale: 0.8, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{ duration: 0.5 }}
+                                className="w-16 h-16 border-2 border-gold rotate-45 mx-auto mb-8"
+                            />
+                            <h2 className="text-gold font-serif text-2xl tracking-[0.2em] uppercase animate-pulse">
+                                Aligning your energy...
+                            </h2>
+                        </div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
+
             {/* Background Image */}
             <div className="absolute inset-0 z-0 select-none pointer-events-none">
                 <Image
@@ -58,15 +109,15 @@ export default function Hero() {
                     transition={{ delay: 1.2, duration: 0.8 }}
                     className="pointer-events-auto z-50 relative"
                 >
-                    <Link
-                        href="#products"
+                    <button
+                        onClick={handleManifest}
                         className="group relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-serif border border-gold/50 rounded-none transition-all duration-300 hover:border-gold hover:shadow-[0_0_40px_rgba(212,175,55,0.6)] hover:scale-105"
                     >
                         <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-gold/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
                         <span className="relative text-gold uppercase tracking-[0.2em] group-hover:text-white transition-colors duration-300">
                             Find Your Frequency
                         </span>
-                    </Link>
+                    </button>
                 </motion.div>
             </div>
 

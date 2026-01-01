@@ -13,12 +13,13 @@ const config: Config = {
         gold: {
           DEFAULT: "#D4AF37",
           100: "#F9F1D8",
-          200: "#EFDEAA", 
-          500: "#D4AF37", 
+          200: "#EFDEAA",
+          500: "#D4AF37",
           600: "#B5952B",
           900: "#584610",
         },
         starlight: "#F5F5F7",
+        amethyst: "#8E44AD",
       },
       fontFamily: {
         sans: ["var(--font-inter)", "sans-serif"],

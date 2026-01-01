@@ -43,7 +43,7 @@ const collections = [
 
 export default function ProductGrid() {
     return (
-        <section id="products" className="py-24 px-4 bg-cosmos relative z-20">
+        <section id="collections" className="py-24 px-4 bg-cosmos relative z-20">
             <div className="max-w-7xl mx-auto">
                 <div className="text-center mb-16">
                     <h2 className="font-serif text-4xl md:text-5xl text-starlight mb-4">Shop By Intention</h2>
