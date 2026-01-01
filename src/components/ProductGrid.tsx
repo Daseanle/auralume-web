@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Sparkles, Heart, Shield } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const collections = [
     {
@@ -104,9 +105,12 @@ function ProductCard({ item, index }: { item: any; index: number }) {
 
                 {/* Badge & Action */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none group-hover:pointer-events-auto">
-                    <span className="px-4 py-2 border border-gold/40 bg-cosmos/80 backdrop-blur text-gold text-xs tracking-[0.2em] font-serif uppercase whitespace-nowrap">
+                    <Link
+                        href={`/collections/${item.id}`}
+                        className="px-4 py-2 border border-gold/40 bg-cosmos/80 backdrop-blur text-gold text-xs tracking-[0.2em] font-serif uppercase whitespace-nowrap hover:bg-gold hover:text-cosmos transition-all"
+                    >
                         View Collection
-                    </span>
+                    </Link>
                     <button
                         onClick={(e) => {
                             e.preventDefault();
