@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Sparkles, Heart, Shield } from "lucide-react";
+import Image from "next/image";
 
 const collections = [
     {
@@ -12,6 +13,7 @@ const collections = [
         price: "$199 - $399",
         icon: Sparkles,
         gradient: "from-amber-900/40 to-cosmos",
+        image: "/images/product-necklace.png",
     },
     {
         id: "love",
@@ -21,6 +23,11 @@ const collections = [
         price: "$249 - $499",
         icon: Heart,
         gradient: "from-rose-900/40 to-cosmos",
+        // Reuse necklace for now, or use red string if appropriate. Let's use necklace but maybe I should have generated a third one.
+        // Actually the user only gave 3 prompts. A, B, C.
+        // B is "product-necklace". C is "red-string" (Protection).
+        // So Love can use Necklace too or I create a variant. I'll use Necklace for Love as well.
+        image: "/images/product-necklace.png",
     },
     {
         id: "protection",
@@ -30,6 +37,7 @@ const collections = [
         price: "$199 - $299",
         icon: Shield,
         gradient: "from-indigo-900/40 to-cosmos",
+        image: "/images/product-red-string.png",
     },
 ];
 
@@ -73,12 +81,16 @@ function ProductCard({ item, index }: { item: any; index: number }) {
                     <Icon size={18} className="text-gold" />
                 </div>
 
-                {/* Diamond Placeholder Image Area */}
+                {/* Diamond Image Area */}
                 <div className="relative w-48 h-48 my-auto group-hover:scale-105 transition-transform duration-700 ease-out">
-                    {/* In a real app, use Next/Image here. We use a CSS diamond shape for now or placeholder */}
-                    <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-32 h-32 border border-white/20 rotate-45 group-hover:border-gold/50 group-hover:shadow-[0_0_50px_rgba(212,175,55,0.2)] transition-all duration-700 backdrop-blur-sm bg-white/5" />
-                        <div className="absolute w-24 h-24 border border-white/10 rotate-45" />
+                    <div className="relative w-full h-full rounded-full overflow-hidden border border-white/10 group-hover:border-gold/50 group-hover:shadow-[0_0_30px_rgba(212,175,55,0.2)] transition-all duration-700">
+                        <Image
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        />
                     </div>
                 </div>
 
@@ -102,7 +114,6 @@ function ProductCard({ item, index }: { item: any; index: number }) {
                     <button
                         onClick={(e) => {
                             e.preventDefault();
-                            // Mock Stripe Checkout
                             alert("Redirecting to Stripe Checkout...");
                         }}
                         className="px-6 py-2 bg-gold text-cosmos text-xs tracking-[0.2em] font-serif uppercase hover:bg-white transition-colors shadow-[0_0_20px_rgba(212,175,55,0.4)]"

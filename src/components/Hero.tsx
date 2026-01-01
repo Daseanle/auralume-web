@@ -7,17 +7,23 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-cosmos">
-            {/* Background with Aura Effect */}
-            <div className="absolute inset-0 z-0">
-                <div className="absolute inset-0 bg-mystic-radial opacity-60 animate-pulse-slow mix-blend-screen" />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-purple-900/20 rounded-full blur-[120px] mix-blend-screen animate-float" />
-                <div className="absolute top-1/3 left-1/3 w-[600px] h-[600px] bg-gold/10 rounded-full blur-[100px] mix-blend-screen animate-float-delayed" />
-                {/* Starfields or grains can be added here */}
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0 select-none">
+                <Image
+                    src="/images/hero-plasma.png"
+                    alt="Plasma Diamond Nebula"
+                    fill
+                    priority
+                    className="object-cover opacity-60 mix-blend-screen"
+                    quality={100}
+                />
             </div>
 
-            {/* Hero Image (Subtle Background) */}
-            <div className="absolute inset-0 z-0 opacity-40 mix-blend-overlay">
-                {/* If we had a real star background image */}
+            {/* Overlay Gradients */}
+            <div className="absolute inset-0 z-0">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cosmos/50 to-cosmos" />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-purple-900/20 rounded-full blur-[120px] mix-blend-overlay animate-float" />
+                <div className="absolute top-1/3 left-1/3 w-[600px] h-[600px] bg-gold/10 rounded-full blur-[100px] mix-blend-overlay animate-float-delayed" />
             </div>
 
             <div className="relative z-10 max-w-5xl mx-auto px-4 text-center flex flex-col items-center">
