@@ -52,7 +52,7 @@ export default function Footer() {
                 </div>
 
                 <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-starlight/40 font-light">
-                    <p>&copy; {new Date().getFullYear()} AuraLume. Lab-Grown in Pure Light.</p>
+                    <p>&copy; 2024 AuraLume. All rights reserved.</p>
                     <div className="mt-4 md:mt-0 flex space-x-6">
                         <span>Privacy Policy</span>
                         <span>Terms of Service</span>
