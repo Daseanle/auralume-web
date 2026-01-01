@@ -23,11 +23,7 @@ const collections = [
         price: "$249 - $499",
         icon: Heart,
         gradient: "from-rose-900/40 to-cosmos",
-        // Reuse necklace for now, or use red string if appropriate. Let's use necklace but maybe I should have generated a third one.
-        // Actually the user only gave 3 prompts. A, B, C.
-        // B is "product-necklace". C is "red-string" (Protection).
-        // So Love can use Necklace too or I create a variant. I'll use Necklace for Love as well.
-        image: "/images/product-necklace.png",
+        image: "/images/product-love.png",
     },
     {
         id: "protection",
