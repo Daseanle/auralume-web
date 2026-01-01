@@ -8,7 +8,7 @@ export default function Hero() {
     return (
         <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-cosmos">
             {/* Background Image */}
-            <div className="absolute inset-0 z-0 select-none">
+            <div className="absolute inset-0 z-0 select-none pointer-events-none">
                 <Image
                     src="/images/hero-plasma.png"
                     alt="Plasma Diamond Nebula"
@@ -20,13 +20,13 @@ export default function Hero() {
             </div>
 
             {/* Overlay Gradients */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 pointer-events-none">
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cosmos/50 to-cosmos" />
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-purple-900/20 rounded-full blur-[120px] mix-blend-overlay animate-float" />
                 <div className="absolute top-1/3 left-1/3 w-[600px] h-[600px] bg-gold/10 rounded-full blur-[100px] mix-blend-overlay animate-float-delayed" />
             </div>
 
-            <div className="relative z-10 max-w-5xl mx-auto px-4 text-center flex flex-col items-center">
+            <div className="relative z-30 max-w-5xl mx-auto px-4 text-center flex flex-col items-center pointer-events-none">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -56,10 +56,11 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ delay: 1.2, duration: 0.8 }}
+                    className="pointer-events-auto z-50 relative"
                 >
                     <Link
-                        href="/collections/all"
-                        className="group relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-serif border border-gold/50 rounded-none transition-all duration-300 hover:border-gold hover:shadow-[0_0_40px_rgba(212,175,55,0.3)]"
+                        href="#products"
+                        className="group relative inline-flex items-center justify-center px-10 py-4 overflow-hidden font-serif border border-gold/50 rounded-none transition-all duration-300 hover:border-gold hover:shadow-[0_0_40px_rgba(212,175,55,0.6)] hover:scale-105"
                     >
                         <span className="absolute inset-0 w-full h-full bg-gradient-to-br from-gold/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-out" />
                         <span className="relative text-gold uppercase tracking-[0.2em] group-hover:text-white transition-colors duration-300">
@@ -70,7 +71,7 @@ export default function Hero() {
             </div>
 
             {/* Floating Diamond Effect using Image Component if we had one, or just abstract */}
-            <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-cosmos to-transparent z-10" />
+            <div className="absolute bottom-0 w-full h-32 bg-gradient-to-t from-cosmos to-transparent z-10 pointer-events-none" />
         </section>
     );
 }
