@@ -4,6 +4,7 @@ import React, { use } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Sparkles, Heart, Shield, ArrowRight } from "lucide-react";
+import { useCart } from "@/context/CartContext";
 
 const collections = {
     abundance: {
@@ -49,6 +50,7 @@ const collections = {
 
 export default function CollectionPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = use(params);
+    const { addItem } = useCart();
     const collection = collections[slug as keyof typeof collections];
 
     if (!collection) {
@@ -153,7 +155,13 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                             <h3 className="font-serif text-xl mb-2">{product.name}</h3>
                             <p className="text-gold tracking-widest mb-6">${product.price}</p>
                             <button
-                                onClick={() => alert("Added to Cart (Mock)")}
+                                onClick={() => addItem({
+                                    id: product.id,
+                                    name: product.name,
+                                    price: product.price,
+                                    image: product.image || collection.image,
+                                    quantity: 1
+                                })}
                                 className="w-full py-3 border border-white/20 hover:bg-gold hover:text-cosmos hover:border-gold transition-all uppercase text-xs tracking-[0.2em]"
                             >
                                 Add to Cart

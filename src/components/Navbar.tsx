@@ -5,10 +5,12 @@ import { ShoppingBag, Menu, X } from "lucide-react";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { useCart } from "@/context/CartContext";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const { toggleCart, items } = useCart();
 
     useEffect(() => {
         const handleScroll = () => {
@@ -44,9 +46,14 @@ export default function Navbar() {
 
                     {/* Icons */}
                     <div className="flex items-center space-x-6">
-                        <button className="text-starlight hover:text-gold transition-colors relative">
+                        <button
+                            onClick={toggleCart}
+                            className="text-starlight hover:text-gold transition-colors relative"
+                        >
                             <ShoppingBag size={20} strokeWidth={1} />
-                            <span className="absolute -top-1 -right-1 w-2 h-2 bg-gold rounded-full animate-pulse" />
+                            {items.length > 0 && (
+                                <span className="absolute -top-1 -right-1 w-2 h-2 bg-gold rounded-full animate-pulse" />
+                            )}
                         </button>
                         <button
                             className="md:hidden text-starlight"
