@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import CartDrawer from "@/components/CartDrawer";
 import { CartProvider } from "@/context/CartContext";
 
+import Analytics from "@/components/Analytics";
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -27,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${cormorant.variable} antialiased bg-cosmos text-starlight selection:bg-gold-500/30 selection:text-gold-200 font-sans`}
       >
+        <Analytics />
         <CartProvider>
           <div className="relative min-h-screen flex flex-col">
             <Navbar />
