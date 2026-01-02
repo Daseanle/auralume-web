@@ -12,7 +12,7 @@ export default function Footer() {
                     <div className="md:col-span-4 space-y-6">
                         <h2 className="font-serif text-3xl tracking-widest text-starlight">AURALUME</h2>
                         <p className="text-starlight/60 font-light text-sm leading-relaxed max-w-xs">
-                            Born of starlight, free of shadow. Our plasma-grown diamonds carry zero karmic debt—only the pure, high-frequency energy of your intention.
+                            Designed with Spirit. Forged with Science. Shipped from our Global Tech Hub directly to your sanctuary.
                         </p>
                     </div>
 

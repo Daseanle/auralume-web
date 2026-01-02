@@ -14,15 +14,21 @@ export default function AboutPage() {
 
                 <div className="space-y-24">
                     <Section
-                        title="Born from Plasma, Not Dirt"
-                        text="Traditional mining tears into the earth, creating scars and often involving conflict. AuraLume diamonds are born in a lab environment that replicates the intense heat and pressure of a star. Using pure plasma technology, we crystallize carbon into its most brilliant form. The result? A diamond that is physically identical to a mined one, but energetically cleaner."
+                        title="Global Vision. High-Tech Heart."
+                        text="Our facility is a State-of-the-Art Plasma Sanctuary located in the heart of the world’s leading jewelry technology hub. Energy knows no borders. We chose this location for its unmatched precision, Ethical Excellence, and the unique ability to replicate the power of lightning at scale. Here, in this Sacred Forge, ancient Eastern wisdom fuses with cutting-edge diamond technology to create something truly boundary-less."
                         align="left"
+                    />
+
+                    <Section
+                        title="Why China? The Transparency of Light."
+                        text="We believe in radical transparency. Over 90% of the world's high-quality HPHT diamonds are forged in this specific region, the Global Epicenter of Plasma Innovation. AuraLume is proud to partner with the master craftsmen who lead this revolution. By sourcing directly from this tech-hub, we ensure every stone is conflict-free, carbon-neutral, and forged in a high-vibration environment—free from the shadows of traditional mining."
+                        align="right"
                     />
 
                     <Section
                         title="The Ultimate Amplifier"
                         text="In metaphysics, the diamond is the 'Master Healer'. Its rigid crystal lattice structure makes it the hardest material in the universe. We view this not just as durability, but as 'unbreakable intention'. When you program a lab-grown diamond with your goal—whether it's love, abundance, or protection—it holds that frequency without the interference of past karmic debt."
-                        align="right"
+                        align="left"
                     />
 
                     <div className="text-center py-12 border-t border-white/10 mt-12">
