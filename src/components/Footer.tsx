@@ -1,6 +1,25 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Footer() {
+    const [email, setEmail] = useState("");
+    const [status, setStatus] = useState<"idle" | "loading" | "success">("idle");
+
+    const handleSubscribe = (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!email) return;
+
+        setStatus("loading");
+
+        // Simulate API call
+        setTimeout(() => {
+            setStatus("success");
+            setEmail("");
+        }, 1500);
+    };
+
     return (
         <footer className="bg-cosmos border-t border-white/5 pt-20 pb-10 relative overflow-hidden">
             <div className="absolute top-0 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-gold/30 to-transparent" />
@@ -41,14 +60,30 @@ export default function Footer() {
                     <div className="md:col-span-3 space-y-6">
                         <h3 className="text-gold text-xs tracking-widest uppercase">The Inner Circle</h3>
                         <p className="text-starlight/60 text-xs font-light">Join for moon cycle rituals and exclusive drops.</p>
-                        <div className="flex border-b border-white/20 pb-2">
-                            <input
-                                type="email"
-                                placeholder="Your email address"
-                                className="bg-transparent border-none outline-none text-starlight text-sm flex-grow placeholder:text-starlight/30"
-                            />
-                            <button className="text-gold text-xs uppercase tracking-widest hover:text-white transition-colors">Join</button>
-                        </div>
+
+                        {status === "success" ? (
+                            <div className="text-gold text-sm font-serif italic animate-fade-in">
+                                Welcome to the sanctuary.
+                            </div>
+                        ) : (
+                            <form onSubmit={handleSubscribe} className="flex border-b border-white/20 pb-2 transition-opacity duration-300">
+                                <input
+                                    type="email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                    placeholder="Your email address"
+                                    className="bg-transparent border-none outline-none text-starlight text-sm flex-grow placeholder:text-starlight/30"
+                                    required
+                                />
+                                <button
+                                    type="submit"
+                                    disabled={status === "loading"}
+                                    className="text-gold text-xs uppercase tracking-widest hover:text-white transition-colors disabled:opacity-50"
+                                >
+                                    {status === "loading" ? "..." : "Join"}
+                                </button>
+                            </form>
+                        )}
                     </div>
                 </div>
 
