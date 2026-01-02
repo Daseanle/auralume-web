@@ -46,7 +46,7 @@ export default function Navbar() {
 
                     {/* Icons */}
                     <div className="flex items-center space-x-6">
-                        <button
+                        {/* <button
                             onClick={toggleCart}
                             className="text-starlight hover:text-gold transition-colors relative"
                         >
@@ -54,7 +54,7 @@ export default function Navbar() {
                             {items.length > 0 && (
                                 <span className="absolute -top-1 -right-1 w-2 h-2 bg-gold rounded-full animate-pulse" />
                             )}
-                        </button>
+                        </button> */}
                         <button
                             className="md:hidden text-starlight"
                             onClick={() => setIsOpen(!isOpen)}
