@@ -94,7 +94,10 @@ export default function CartDrawer() {
                                     <span className="text-sm uppercase tracking-widest text-starlight/60">Subtotal</span>
                                     <span className="font-serif text-2xl text-gold">${total}</span>
                                 </div>
-                                <button className="w-full py-4 bg-gold text-cosmos font-serif uppercase tracking-[0.2em] hover:bg-white transition-colors">
+                                <button
+                                    onClick={() => alert("The payment gateway is currently integrating with the cosmic field. Please use the direct links on the main page for now.")}
+                                    className="w-full py-4 bg-gold text-cosmos font-serif uppercase tracking-[0.2em] hover:bg-white transition-colors"
+                                >
                                     Proceed to Manifest
                                 </button>
                                 <p className="text-center text-[10px] text-starlight/30 mt-4 uppercase tracking-wider">

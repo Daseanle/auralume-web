@@ -16,8 +16,20 @@ const collections = {
         color: "text-amber-400",
         gradient: "from-amber-900/20 to-cosmos",
         products: [
-            { id: "a1", name: "North Star Pendant (0.2ct)", price: 299, image: "/images/product-necklace.png" },
-            { id: "a2", name: "Prosperity Studs", price: 199, image: "/images/product-abundance-studs.png" },
+            {
+                id: "a1",
+                name: "North Star Pendant (0.2ct)",
+                price: 299,
+                image: "/images/product-necklace.png",
+                stripeUrl: "https://buy.stripe.com/test_abundance_299"
+            },
+            {
+                id: "a2",
+                name: "Prosperity Studs",
+                price: 199,
+                image: "/images/product-abundance-studs.png",
+                stripeUrl: "https://buy.stripe.com/test_protection_199"
+            },
         ]
     },
     love: {
@@ -29,8 +41,20 @@ const collections = {
         color: "text-rose-400",
         gradient: "from-rose-900/20 to-cosmos",
         products: [
-            { id: "l1", name: "Heart Core Necklace (0.2ct)", price: 349, image: "/images/product-love.png" },
-            { id: "l2", name: "Soulmate Ring", price: 249, image: "/images/product-love-ring.png" },
+            {
+                id: "l1",
+                name: "Heart Core Necklace (0.2ct)",
+                price: 349,
+                image: "/images/product-love.png",
+                stripeUrl: "https://buy.stripe.com/test_abundance_299"
+            },
+            {
+                id: "l2",
+                name: "Soulmate Ring",
+                price: 249,
+                image: "/images/product-love-ring.png",
+                stripeUrl: "https://buy.stripe.com/test_love_249"
+            },
         ]
     },
     protection: {
@@ -42,15 +66,26 @@ const collections = {
         color: "text-indigo-400",
         gradient: "from-indigo-900/20 to-cosmos",
         products: [
-            { id: "p1", name: "Red String Diamond Bracelet", price: 199, image: "/images/product-red-string.png" },
-            { id: "p2", name: "Aura Shield Pendant", price: 299, image: "/images/product-red-string.png" },
+            {
+                id: "p1",
+                name: "Red String Diamond Bracelet",
+                price: 199,
+                image: "/images/product-red-string.png",
+                stripeUrl: "https://buy.stripe.com/test_protection_199"
+            },
+            {
+                id: "p2",
+                name: "Aura Shield Pendant",
+                price: 299,
+                image: "/images/product-red-string.png",
+                stripeUrl: "https://buy.stripe.com/test_abundance_299"
+            },
         ]
     }
 };
 
 export default function CollectionPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = use(params);
-    const { addItem } = useCart();
     const collection = collections[slug as keyof typeof collections];
 
     if (!collection) {
@@ -155,16 +190,14 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                             <h3 className="font-serif text-xl mb-2">{product.name}</h3>
                             <p className="text-gold tracking-widest mb-6">${product.price}</p>
                             <button
-                                onClick={() => addItem({
-                                    id: product.id,
-                                    name: product.name,
-                                    price: product.price,
-                                    image: product.image || collection.image,
-                                    quantity: 1
-                                })}
-                                className="w-full py-3 border border-white/20 hover:bg-gold hover:text-cosmos hover:border-gold transition-all uppercase text-xs tracking-[0.2em]"
+                                onClick={() => {
+                                    if ((product as any).stripeUrl) {
+                                        window.location.href = (product as any).stripeUrl;
+                                    }
+                                }}
+                                className="w-full py-3 bg-gold text-cosmos font-serif hover:bg-white transition-colors uppercase text-xs tracking-[0.2em] shadow-[0_0_15px_rgba(212,175,55,0.4)]"
                             >
-                                Add to Cart
+                                Manifest Now
                             </button>
                         </div>
                     ))}
