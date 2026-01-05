@@ -15,8 +15,28 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://shopauralume.com'),
   title: "AuraLume | Manifest With Unbreakable Light",
   description: "Ethically grown, high-frequency lab diamonds. The ultimate amplifier for your soul's intention.",
+  openGraph: {
+    title: "AuraLume | Manifest With Unbreakable Light",
+    description: "Ethically grown, high-frequency lab diamonds. The ultimate amplifier for your soul's intention.",
+    url: 'https://shopauralume.com',
+    siteName: 'AuraLume',
+    locale: 'en_US',
+    type: 'website',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
