@@ -19,7 +19,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'mined-vs-lab-grown-spiritual-manifestation',
         title: 'Beyond the Surface: Why Your Aura Prefers Plasma-Grown Diamonds',
         excerpt: 'In a world of vibrational resonance, the origin of your crystals matters. Discover why spiritualists are turning to the high-frequency purity of plasma-grown diamonds for clearer manifestation and karmic-free luxury.',
-        coverImage: 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2670&auto=format&fit=crop', // Ethereal light/prism
+        coverImage: '/images/blog/blog_plasma_diamond.png',
         publishedAt: '2025-05-12',
         content: `
       <p>In the ancient traditions of crystal healing, it is understood that stones are not merely inert matter—they are energy recorders. A diamond, with its supreme density and <span class="font-medium text-gold-200">hardness of 10 on the Mohs scale</span>, is the most powerful amplifier in the mineral kingdom. It holds, concentrates, and radiates energy with unmatched intensity.</p>
@@ -36,7 +36,7 @@ export const blogPosts: BlogPost[] = [
       
       <p>These are <strong>Karma-debt free</strong> stones. They have no history of suffering, no memory of dynamite. They are a spiritual "tabula rasa" (blank slate). Because they are born of light manifest (plasma), their capacity for <strong>Energy Amplification</strong> is uninhibited. They are superconductors for your specific intention.</p>
 
-      <img src="https://images.unsplash.com/photo-1517961239858-6906231c519c?q=80&w=2670&auto=format&fit=crop" alt="Manifestation diamond ritual and light reflection" class="w-full h-96 object-cover my-12 opacity-90 hover:opacity-100 transition-opacity duration-700" />
+      <img src="/images/blog/blog_plasma_diamond.png" alt="Manifestation diamond ritual and light reflection" class="w-full h-96 object-cover my-12 opacity-90 hover:opacity-100 transition-opacity duration-700" />
 
       <h2>Aligning with Abundance</h2>
       <p>When you wear a plasma-grown diamond, you are wearing the future. You are signaling to the universe that you choose creation over extraction. This alignment is crucial for manifestors.</p>
@@ -57,7 +57,7 @@ export const blogPosts: BlogPost[] = [
         slug: 'science-of-intention-diamonds',
         title: 'The Science of Intention: Why Lab Diamonds Hold Higher Frequency',
         excerpt: 'Explore how the controlled environment of a laboratory allows for a purer crystalline structure, devoid of the karmic conflict often associated with mined stones.',
-        coverImage: 'https://images.unsplash.com/photo-1618588507085-c79565432917?q=80&w=2700&auto=format&fit=crop', // Abstract light/crystal
+        coverImage: '/images/blog/blog_manifestation_science.png',
         publishedAt: '2024-03-15',
         content: `
       <p>In the realm of metaphysics, crystals are often revered for their ability to hold and amplify energy. Diamond, the hardest known natural substance, is composed of pure carbon arranged in a unique crystal lattice. This structure makes it an incredibly powerful amplifier of intention.</p>
@@ -75,6 +75,35 @@ export const blogPosts: BlogPost[] = [
             image: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?q=80&w=2574&auto=format&fit=crop',
             price: '$1,250',
             link: '/collections/abundance'
+        }
+    },
+    {
+        slug: 'programming-your-auralume-jewelry',
+        title: 'A Beginner’s Guide to Programming Your AuraLume Jewelry',
+        excerpt: 'Your diamond is a vessel waiting for your command. Learn the simple, sacred ritual to imprint your specific intentions onto your new heirloom.',
+        coverImage: '/images/blog/blog_ritual_guide.png',
+        publishedAt: '2025-06-01',
+        content: `
+      <p>You have chosen your AuraLume piece, or perhaps it has chosen you. Now arrives the most critical moment: The Bonding. Unlike other jewelry that is worn passively, AuraLume diamonds are active spiritual tools designed to hold a specific frequency.</p>
+      
+      <h2>The Cleansing</h2>
+      <p>Although our plasma-grown diamonds arrive free of karmic debt, we recommend a brief cleansing to clear any static from shipping. Pass your jewelry through the smoke of white sage or Palo Santo, or simply rinse it under cold running water while visualizing white light washing over it.</p>
+      
+      <img src="/images/blog/blog_ritual_guide.png" alt="Process of programming a diamond necklace with intention" class="w-full h-96 object-cover my-12 opacity-90 hover:opacity-100 transition-opacity duration-700" />
+
+      <h2>The Programming Ritual</h2>
+      <p>1. <strong>Find Stillness</strong>: Sit in a quiet space where you will not be disturbed.<br>
+      2. <strong>Connect</strong>: Hold the jewelry in your left hand (the receiving hand). Close your eyes and feel its cool weight.<br>
+      3. <strong>Invokation</strong>: clearly state your intention, either aloud or in your mind. "I charge this stone with the vibration of Unconditional Love," or "I charge this stone to be a shield of Protection."<br>
+      4. <strong>Seal It</strong>: Visualize the word or feeling entering the diamond and glowing from within. It is done.</p>
+
+      <p>Wear your piece for the next 7 days continuously to lock in this connection.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Intention Bracelet',
+            image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=2670&auto=format&fit=crop',
+            price: '$1,800',
+            link: '/collections/love'
         }
     },
     {
