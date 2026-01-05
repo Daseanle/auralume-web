@@ -1,0 +1,128 @@
+
+export interface BlogPost {
+    slug: string;
+    title: string;
+    excerpt: string;
+    coverImage: string;
+    publishedAt: string;
+    content: string; // HTML string for simplicity in this task
+    recommendedProduct: {
+        name: string;
+        image: string;
+        price: string;
+        link: string;
+    };
+}
+
+export const blogPosts: BlogPost[] = [
+    {
+        slug: 'mined-vs-lab-grown-spiritual-manifestation',
+        title: 'Beyond the Surface: Why Your Aura Prefers Plasma-Grown Diamonds',
+        excerpt: 'In a world of vibrational resonance, the origin of your crystals matters. Discover why spiritualists are turning to the high-frequency purity of plasma-grown diamonds for clearer manifestation and karmic-free luxury.',
+        coverImage: 'https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2670&auto=format&fit=crop', // Ethereal light/prism
+        publishedAt: '2025-05-12',
+        content: `
+      <p>In the ancient traditions of crystal healing, it is understood that stones are not merely inert matter—they are energy recorders. A diamond, with its supreme density and <span class="font-medium text-gold-200">hardness of 10 on the Mohs scale</span>, is the most powerful amplifier in the mineral kingdom. It holds, concentrates, and radiates energy with unmatched intensity.</p>
+      
+      <p>But what energy is your diamond broadcasting? As we ascend into a new era of consciousness, the source of our talismans becomes as critical as their beauty.</p>
+
+      <h2>The Heavy Karma of Mining</h2>
+      <p>For centuries, the diamond narrative has been written in the darkness of the earth. Mined diamonds, regardless of "conflict-free" certifications, carry the geological and energetic memory of their violent extraction. In the metaphysical view, this disruption of the Earth's crust creates a "trauma signature"—a vibrational noise that can cloud the crystal's clarity.</p>
+
+      <p>When you use a mined stone for manifestation, you are essentially trying to write a new song on a tape that already has a chaotic track recorded over it. For the sensitive soul seeking <strong>Ethical Luxury</strong>, this background noise can create subtle resistance in your energetic field, grounding you in old paradigms rather than lifting you into new possibilities.</p>
+
+      <h2>The Pure Light of Plasma Tech</h2>
+      <p>Enter the era of the Sky Diamond. Created not through destruction, but through creation. Our diamonds are born in a plasma reactor—a chamber that replicates the energy of a star. Through <strong>Plasma physics</strong>, a seed of pure carbon is bathed in high-energy waves, causing it to crystallize layer by layer in a state of chaos-free perfection.</p>
+      
+      <p>These are <strong>Karma-debt free</strong> stones. They have no history of suffering, no memory of dynamite. They are a spiritual "tabula rasa" (blank slate). Because they are born of light manifest (plasma), their capacity for <strong>Energy Amplification</strong> is uninhibited. They are superconductors for your specific intention.</p>
+
+      <img src="https://images.unsplash.com/photo-1517961239858-6906231c519c?q=80&w=2670&auto=format&fit=crop" alt="Manifestation diamond ritual and light reflection" class="w-full h-96 object-cover my-12 opacity-90 hover:opacity-100 transition-opacity duration-700" />
+
+      <h2>Aligning with Abundance</h2>
+      <p>When you wear a plasma-grown diamond, you are wearing the future. You are signaling to the universe that you choose creation over extraction. This alignment is crucial for manifestors.</p>
+      
+      <p>If you are seeking to call in greater prosperity, consider how the purity of the stone can accelerate your journey. To invite true <a href="/collections/abundance" class="text-gold-400 hover:text-white underline decoration-gold-500/30 underline-offset-4 transition-colors">Abundance</a> into your life, your tools must be as sharp and clear as your will.</p>
+
+      <h2>The Sovereign Choice</h2>
+      <p>Your aura deserves protection from the heaviness of the past. By choosing <strong>Sustainable Diamonds</strong>, you are not only healing the earth but also sealing your own field in a high-frequency grid of pure, unbreakable light.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'science-of-intention-diamonds',
+        title: 'The Science of Intention: Why Lab Diamonds Hold Higher Frequency',
+        excerpt: 'Explore how the controlled environment of a laboratory allows for a purer crystalline structure, devoid of the karmic conflict often associated with mined stones.',
+        coverImage: 'https://images.unsplash.com/photo-1618588507085-c79565432917?q=80&w=2700&auto=format&fit=crop', // Abstract light/crystal
+        publishedAt: '2024-03-15',
+        content: `
+      <p>In the realm of metaphysics, crystals are often revered for their ability to hold and amplify energy. Diamond, the hardest known natural substance, is composed of pure carbon arranged in a unique crystal lattice. This structure makes it an incredibly powerful amplifier of intention.</p>
+      
+      <h2>The Vibration of Purity</h2>
+      <p>Mined diamonds, while beautiful, often come from the earth carrying the history of their extraction. This can include environmental disruption and, unfortunately, human suffering. Lab-grown diamonds, conversely, are born from a seed of carbon in a controlled environment mimicking the earth's natural crushing force, but shortened from millennia to weeks.</p>
+      
+      <p>This "holographic" creation process results in a stone that is physically, chemically, and optically identical to a mined diamond, yet energetically different. It is a blank slate. A vessel of pure light.</p>
+
+      <h2>Encoding Your Desire</h2>
+      <p>Because they lack the "noise" of conflict, lab diamonds are exceptionally receptive to programming. When you wear an AuraLume stone, you represent the new era of conscious luxury—where beauty does not require sacrifice.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Clarity Pendant',
+            image: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?q=80&w=2574&auto=format&fit=crop',
+            price: '$1,250',
+            link: '/collections/abundance'
+        }
+    },
+    {
+        slug: 'manifesting-love-rose-gold',
+        title: 'Manifesting Love: The Metaphysics of Rose Gold',
+        excerpt: 'Rose gold is more than a trend. Its copper infusion aligns it with the heart chakra, making it the perfect conduit for self-love and romantic connection.',
+        coverImage: 'https://images.unsplash.com/photo-1605100804763-247f67b3557e?q=80&w=2670&auto=format&fit=crop', // Rose hue / gold
+        publishedAt: '2024-04-02',
+        content: `
+      <p>Gold has been worshiped for eons as the metal of the sun—masculine, projecting, and transformative. But when alloyed with copper to create the blushing hue of rose gold, the energy shifts.</p>
+      
+      <h2>Heart Chakra Resonance</h2>
+      <p>Copper is anciently associated with Venus, the planet of love, beauty, and connection. By blending the durability of gold with the warmth of copper, Rose Gold bridges the solar plexus (power) and the heart (love).</p>
+      
+      <p>Wearing rose gold acts as a subtle reminder to keep your heart open. It softens the edges of ambition with compassion.</p>
+
+      <h2>AuraLume's Rose Collection</h2>
+      <p>Our specifically formulated 18k Rose Gold is designed to maximize this warm glow, ensuring that your jewelry isn't just an accessory, but a daily affirmation of love.</p>
+    `,
+        recommendedProduct: {
+            name: 'Eternal Rose Ring',
+            image: 'https://images.unsplash.com/photo-1603561591411-cd7befcf7a7b?q=80&w=2574&auto=format&fit=crop',
+            price: '$2,800',
+            link: '/collections/love'
+        }
+    },
+    {
+        slug: 'protection-stones-modern-era',
+        title: 'Shielding Your Energy: Protection Stones for the Modern Era',
+        excerpt: 'In a world of constant digital noise, maintaining your energetic boundary is vital. Discover how specific cuts and settings can act as spiritual armor.',
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop', // Dark/moody
+        publishedAt: '2024-04-20',
+        content: `
+      <p>We are bombarded daily by information, EMFs, and the emotional projections of others. To walk your path with clarity, you must protect your own energy field (aura).</p>
+      
+      <h2>The Geometry of Defense</h2>
+      <p>Sharp, angular cuts like the Princess or Marquise act as deflectors. They break up stagnant energy and prevent it from "sticking" to your field. In contrast, rounder cuts circulate energy inward.</p>
+      
+      <p>At AuraLume, we set our protection pieces in Palladium-White Gold, a metal combination known for its "mirror-like" qualities, reflecting negativity back to its source, transmuted into neutral energy.</p>
+
+      <h2>Ritual of Wear</h2>
+      <p>Put on your shield each morning with intention. "I am safe. I am sovereign. I am light."</p>
+    `,
+        recommendedProduct: {
+            name: 'The Guardian Studs',
+            image: 'https://images.unsplash.com/photo-1535632787350-4e68ef0ac584?q=80&w=2670&auto=format&fit=crop',
+            price: '$950',
+            link: '/collections/protection'
+        }
+    }
+];
