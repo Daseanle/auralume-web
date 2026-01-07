@@ -83,202 +83,202 @@ async function generateContentWithClaude(prompt, topic, keyword) {
 
   if (topic.includes('love') || topic.includes('heart') || topic.includes('relationship') || topic.includes('soulmate')) {
     mockResponse = {
-      title: '心轮开放：钻石如何改变你的爱情运势',
-      content: `# 心轮开放：钻石如何改变你的爱情运势
+      title: 'Heart Chakra Opening: How Lab-Grown Diamonds Transform Your Love Life',
+      content: `# Heart Chakra Opening: How Lab-Grown Diamonds Transform Your Love Life
 
-## 引言
+## Introduction
 
-爱情是最强大的显化力量。当你将钻石的高频能量与心轮结合，你就创造了一个**磁性的吸引力场**。
+Love is the most powerful manifestation force. When you combine the high-frequency energy of diamonds with your heart chakra, you create a **magnetic attraction field**.
 
-## 钻石与爱情的量子连接
+## The Quantum Connection Between Diamonds and Love
 
-钻石是已知最坚硬的物质。在量子层面，这种不可破坏性意味着**爱的意图锁定**。
+Diamonds are the hardest known material. At the quantum level, this indestructibility means **locked loving intention**.
 
-### 为什么选择 AuraLume 钻石？
+### Why Choose AuraLume Diamonds?
 
-- **纯净能量**：实验室钻石没有业力负担
-- **高频振动**：等离子体技术创造清洁能量场
-- **心轮对齐**：钻石与心脏脉轮完美共振
+- **Pure Energy**: Lab-grown diamonds carry no karmic debt
+- **High Vibration**: Plasma technology creates clean energy fields
+- **Heart Alignment**: Diamonds resonate perfectly with the heart center
 
-## 爱情显化仪式
+## Love Manifestation Ritual
 
-1. **清洁钻石**：用鼠尾草烟熏净化
-2. **设置意图**：手持钻石，清晰陈述你的爱情愿望
-3. **心轮激活**：将钻石放在心脏位置 11 分钟
-4. **日常佩戴**：让钻石持续广播你的意图
+1. **Cleanse the Diamond**: Purify with sage smoke
+2. **Set Intention**: Hold the diamond and clearly state your love desire
+3. **Activate Heart Chakra**: Place the diamond on your heart for 11 minutes
+4. **Daily Wear**: Let the diamond continuously broadcast your intention
 
-## 真实案例
+## Real Results
 
-> "佩戴 AuraLume 钻石 21 天后，我遇到了我的灵魂伴侣。" —— Sarah, 纽约
+> "After wearing my AuraLume diamond for 21 days, I met my soulmate." — Sarah, New York
 
-## 结论
+## Conclusion
 
-当你准备好显化真爱时，AuraLume 钻石是你的终极伴侣。
+When you're ready to manifest true love, AuraLume diamonds are your ultimate companion.
 
 ---
 
-*准备好召唤你的灵魂伴侣了吗？[探索爱情系列](/shop/love)*`,
+*Ready to call in your soulmate? [Explore the Love Collection](/shop/love)*`,
       tags: ['love manifestation', 'heart chakra', 'diamond energy', 'soulmate'],
       category: 'diamond-spirituality',
-      description: '发现钻石能量如何打开心轮，吸引灵魂伴侣和真爱。科学、灵性和能量的完美结合。',
+      description: 'Discover how diamond energy opens your heart chakra to attract soulmates and true love. The perfect blend of science, spirituality, and energy.',
       seo: {
         keywords: ['love manifestation', 'heart chakra', 'diamond energy', 'AuraLume'],
-        metaTitle: '心轮开放 | 钻石爱情显化指南 | AuraLume',
-        metaDescription: '实验室钻石如何通过心轮能量吸引爱情？科学解读钻石能量、爱情显化和灵魂伴侣吸引。',
+        metaTitle: 'Heart Chakra Opening | Diamond Love Manifestation Guide | AuraLume',
+        metaDescription: 'How do lab-grown diamonds attract love through heart chakra energy? Scientific guide to diamond energy, love manifestation, and soulmate attraction.',
         ogImage: '/images/blog/heart-chakra-diamond-og.jpg'
       }
     };
   } else if (topic.includes('manifestation') || topic.includes('quantum') || topic.includes('intention') || topic.includes('attract')) {
     mockResponse = {
-      title: '钻石量子力学：为什么实验室钻石是更强大的显化工具',
-      content: `# 钻石量子力学：为什么实验室钻石是更强大的显化工具
+      title: 'Diamond Quantum Mechanics: Why Lab-Grown Diamonds Are Superior Manifestation Tools',
+      content: `# Diamond Quantum Mechanics: Why Lab-Grown Diamonds Are Superior Manifestation Tools
 
-## 引言
+## Introduction
 
-当你想要显化愿望时，你使用的工具至关重要。AuraLume 的实验室钻石不仅是美丽的珠宝——它们是**量子级别的能量放大器**。
+When you want to manifest desires, the tools you use matter. AuraLume's lab-grown diamonds are not just beautiful jewelry—they are **quantum-level energy amplifiers**.
 
-## 什么是"清洁能量"？
+## What Is "Clean Energy"?
 
-传统开采钻石来自地球深处，携带着数百万年的地质压力和潜在的重能量。相比之下，AuraLume 钻石在实验室中通过纯等离子体技术诞生——这 recreates 了恒星诞生的环境。
+Traditional mined diamonds come from deep within the Earth, carrying millions of years of geological pressure and potential heavy energy. In contrast, AuraLume diamonds are born in laboratories using pure plasma technology—this recreates the environment of a birthing star.
 
-**这意味着什么？**
+**What Does This Mean?**
 
-- **零业力负担**：没有冲突，没有环境破坏
-- **纯净能量场**：如同白纸，等待你的意图编程
-- **高频振动**：等离子体能量创造更高频率的晶体结构
+- **Zero Karmic Debt**: No conflict, no environmental destruction
+- **Pure Energy Field**: Like a blank canvas, waiting for your intention programming
+- **High-Frequency Vibration**: Plasma energy creates higher frequency crystal structures
 
-## 钻石如何放大显化？
+## How Diamonds Amplify Manifestation?
 
-### 1. 压力效应
-钻石是已知最坚硬的物质。在量子层面，这种不可破坏性意味着**意图锁定**。
+### 1. The Pressure Effect
+Diamonds are the hardest known material. At the quantum level, this indestructibility means **intention locking**.
 
-当你持有钻石并陈述愿望时：
-1. 你的思维产生特定频率
-2. 钻石的晶体结构捕获并锁定这个频率
-3. 钻石 24/7 持续广播这个意图
+When you hold a diamond and state your desire:
+1. Your thoughts produce a specific frequency
+2. The diamond's crystal structure captures and locks this frequency
+3. The diamond continuously broadcasts this intention 24/7
 
-### 2. 脉轮对齐
-不同部位的钻石影响不同能量中心：
+### 2. Chakra Alignment
+Different diamond placements affect different energy centers:
 
-- **喉咙**（表达）：钻石吊坠 → 显化你的真理
-- **心脏**（爱）：接近心轮 → 吸引灵魂连接
-- **眉心**（直觉）：清晰愿景 → 看见你的路径
+- **Throat** (Expression): Diamond pendant → Manifest your truth
+- **Heart** (Love): Near heart chakra → Attract soul connections
+- **Third Eye** (Intuition): Clear vision → See your path
 
-## 科学验证
+## Scientific Validation
 
-量子物理学告诉我们，观察者影响现实。钻石作为观察者-意图之间的桥梁：
+Quantum physics tells us that observers affect reality. Diamonds serve as the bridge between observer and intention:
 
-> "在量子场中，coherent 的晶体结构可以维持特定振动状态。" —— *量子物理学家观点*
+> "In the quantum field, coherent crystal structures can maintain specific vibrational states." — *Quantum Physicist Perspective*
 
-## 如何编程你的钻石
+## How to Program Your Diamond
 
-1. **清洁**：持有钻石，设置意图"重置为零"
-2. **聚焦**：闭眼，清晰陈述你的愿望
-3. **锁定**：佩戴钻石 21 天，固化频率
+1. **Cleanse**: Hold the diamond, set intention to "reset to zero"
+2. **Focus**: Close your eyes and clearly state your desire
+3. **Lock**: Wear the diamond for 21 days to solidify the frequency
 
-## 结论
+## Conclusion
 
-AuraLume 实验室钻石不是装饰品——它们是**显化科技**。
+AuraLume lab-grown diamonds are not ornaments—they are **manifestation technology**.
 
-当你戴上 North Star 吊坠时，你佩戴的不是珠宝，而是你愿望的永久广播站。
+When you wear The North Star pendant, you're not wearing jewelry, you're wearing a permanent broadcast station for your desires.
 
 ---
 
-*准备好显化你的梦想了吗？[找到你的钻石](/shop)*`,
+*Ready to manifest your dreams? [Find Your Diamond](/shop)*`,
       tags: ['manifestation', 'quantum physics', 'crystal energy', 'lab diamond'],
       category: 'manifestation-science',
-      description: '发现为什么实验室钻石在量子层面上是更强大的显化工具。科学、灵性和能量的完美结合。',
+      description: 'Discover why lab-grown diamonds are superior manifestation tools at the quantum level. The perfect blend of science, spirituality, and energy.',
       seo: {
         keywords: ['manifestation', 'quantum physics', 'crystal energy', 'lab diamond', 'AuraLume'],
-        metaTitle: '钻石量子力学 | AuraLume 显化指南',
-        metaDescription: '实验室钻石如何通过量子物理放大你的显化意图？科学解读钻石能量、晶体编程和吸引力法则。',
+        metaTitle: 'Diamond Quantum Mechanics | AuraLume Manifestation Guide',
+        metaDescription: 'How do lab-grown diamonds amplify your manifestation intentions through quantum physics? Scientific guide to diamond energy, crystal programming, and the Law of Attraction.',
         ogImage: '/images/blog/quantum-diamond-og.jpg'
       }
     };
   } else if (topic.includes('protect') || topic.includes('shield') || topic.includes('negative')) {
     mockResponse = {
-      title: '能量护盾：钻石如何保护你的气场',
-      content: `# 能量护盾：钻石如何保护你的气场
+      title: 'Energy Shield: How Diamonds Protect Your Aura',
+      content: `# Energy Shield: How Diamonds Protect Your Aura
 
-## 引言
+## Introduction
 
-在这个充满混乱能量的世界里，保护你的能量场至关重要。钻石作为最坚硬的物质，也是最强的**能量护盾**。
+In a world filled with chaotic energy, protecting your energy field is essential. As the hardest material, diamonds are also the most powerful **energy shields**.
 
-## 为什么钻石是最佳保护石？
+## Why Diamonds Are the Ultimate Protection Stone?
 
-### 1. 不可破坏性
-钻石的硬度（莫氏 10 级）在能量层面意味着**绝对的防护**。
+### 1. Indestructibility
+Diamond hardness (Mohs 10) means **absolute protection** at the energy level.
 
-### 2. 镜面效应
-钻石可以反射负面能量，就像镜子反射光线一样。
+### 2. Mirror Effect
+Diamonds can reflect negative energy, just as mirrors reflect light.
 
-## 保护仪式
+## Protection Ritual
 
-1. **创建护盾**：顺时针手持钻石绕身体 3 圈
-2. **设定边界**：陈述"只有爱的能量可以进入我的场"
-3. **日常佩戴**：保持护盾活跃
+1. **Create Shield**: Hold diamond clockwise around your body 3 times
+2. **Set Boundaries**: State "Only loving energy may enter my field"
+3. **Daily Wear**: Keep the shield active
 
-## 结论
+## Conclusion
 
-AuraLume 钻石是你 24/7 的能量保镖。
+AuraLume diamonds are your 24/7 energy bodyguard.
 
 ---
 
-*需要保护吗？[探索防护系列](/shop/protection)*`,
+*Need protection? [Explore the Protection Collection](/shop/protection)*`,
       tags: ['protection', 'energy shield', 'negative energy', 'aura cleansing'],
       category: 'diamond-spirituality',
-      description: '了解钻石能量如何保护你的气场免受负面能量影响。建立强大的能量护盾。',
+      description: 'Learn how diamond energy protects your aura from negative energy. Establish powerful energy shields with AuraLume.',
       seo: {
         keywords: ['protection', 'energy shield', 'negative energy', 'aura cleansing', 'AuraLume'],
-        metaTitle: '能量护盾 | 钻石保护指南 | AuraLume',
-        metaDescription: '钻石如何建立能量护盾保护你的气场？负面能量防护和气场清洁指南。',
+        metaTitle: 'Energy Shield | Diamond Protection Guide | AuraLume',
+        metaDescription: 'How do diamonds create energy shields to protect your aura? Negative energy protection and aura cleansing guide.',
         ogImage: '/images/blog/protection-shield-og.jpg'
       }
     };
   } else {
-    // 默认通用模板
+    // Default generic template
     const titleWords = topic.split(' ').slice(0, 4);
     mockResponse = {
-      title: `实验室钻石的${titleWords.join(' ')}指南`,
+      title: `The Power of ${titleWords.join(' ')}: Your Guide to Lab-Grown Diamond Energy`,
       content: `# ${topic}
 
-## 引言
+## Introduction
 
-AuraLume 实验室钻石代表着**纯净能量**和**无限可能**。
+AuraLume lab-grown diamonds represent **pure energy** and **infinite possibility**.
 
-## 为什么选择实验室钻石？
+## Why Choose Lab-Grown Diamonds?
 
-### 1. 零业力负担
-- 没有冲突开采
-- 没有环境破坏
-- 只有纯净能量
+### 1. Zero Karmic Debt
+- No conflict mining
+- No environmental destruction
+- Only pure energy
 
-### 2. 高频振动
-等离子体技术创造的钻石具有更高的能量频率。
+### 2. High Frequency Vibration
+Plasma technology creates diamonds with higher energy frequencies.
 
-### 3. 可编程能量
-你可以将任何意图锁定进钻石的晶体结构。
+### 3. Programmable Energy
+You can lock any intention into the diamond's crystal structure.
 
-## 使用指南
+## How to Use
 
-1. **清洁钻石**：第一次使用前净化
-2. **设置意图**：清晰陈述你的愿望
-3. **日常佩戴**：让钻石持续工作
+1. **Cleanse the Diamond**: Purify before first use
+2. **Set Intention**: Clearly state your desire
+3. **Daily Wear**: Let the diamond work continuously
 
-## 结论
+## Conclusion
 
-AuraLume 钻石是你的能量伙伴。
+AuraLume diamonds are your energy partners.
 
 ---
 
-*探索我们的[完整系列](/shop)*`,
+*Explore our [full collection](/shop)*`,
       tags: ['lab diamond', 'crystal energy', 'spiritual jewelry', keyword],
       category: 'diamond-spirituality',
-      description: `了解${topic}和 AuraLume 实验室钻石的力量。纯净能量、零业力负担的灵性珠宝。`,
+      description: `Learn about ${topic} and the power of AuraLume lab-grown diamonds. Pure energy, zero-karmic-debt spiritual jewelry.`,
       seo: {
         keywords: ['lab diamond', 'crystal energy', 'spiritual jewelry', keyword, 'AuraLume'],
-        metaTitle: `${topic} | AuraLume 灵性钻石`,
-        metaDescription: `${keyword} - 实验室钻石如何改变你的能量场？探索 AuraLume 的纯净钻石能量。`,
+        metaTitle: `${topic} | AuraLume Spiritual Diamonds`,
+        metaDescription: `${keyword} - How do lab-grown diamonds transform your energy field? Explore AuraLume's pure diamond energy.`,
         ogImage: '/images/blog/default-diamond-og.jpg'
       }
     };
