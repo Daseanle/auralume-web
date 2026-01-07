@@ -10,7 +10,7 @@ seo:
   keywords: ["love manifestation", "heart chakra", "diamond energy", "AuraLume"]
   metaTitle: "Heart Chakra Opening | Diamond Love Manifestation Guide | AuraLume"
   metaDescription: "How do lab-grown diamonds attract love through heart chakra energy? Scientific guide to diamond energy, love manifestation, and soulmate attraction."
-  ogImage: "/images/blog/heart-chakra-diamond-og.jpg"
+  ogImage: "/images/blog/blog_plasma_diamond.png"
 ---
 
 # Heart Chakra Opening: How Lab-Grown Diamonds Transform Your Love Life
@@ -18,6 +18,10 @@ seo:
 ## Introduction
 
 Love is the most powerful manifestation force. When you combine the high-frequency energy of diamonds with your heart chakra, you create a **magnetic attraction field**.
+
+
+![Diamond heart chakra meditation](/images/blog/blog_plasma_diamond.png)
+
 
 ## The Quantum Connection Between Diamonds and Love
 
