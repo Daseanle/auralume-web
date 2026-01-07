@@ -25,7 +25,7 @@ const CONFIG = {
         'quantum physics of manifestation',
         'why lab-grown diamonds amplify intentions',
         'science behind crystal energy',
-        'attraction法则的科学原理'
+        'law of attraction explained scientifically'
       ]
     },
     {
@@ -51,7 +51,7 @@ const CONFIG = {
       topics: [
         'new moon diamond rituals',
         'zodiac manifestation guide',
-        '2024 eclipse energy and crystals',
+        '2026 eclipse energy and crystals',
         'mercury retrograde protection'
       ]
     }
