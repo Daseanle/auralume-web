@@ -6,13 +6,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "notify": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\" scripts/notify.ts",
+    "auto-blog": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\" scripts/auto-daily-blog.ts",
+    "auto-content": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\" scripts/generate-auralume-content.ts"
   },
   "dependencies": {
     "clsx": "^2.1.1",
+    "dotenv": "^17.2.3",
     "framer-motion": "^12.23.26",
+    "gray-matter": "^4.0.3",
     "lucide-react": "^0.562.0",
     "next": "16.1.1",
+    "next-mdx-remote": "^5.0.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "tailwind-merge": "^3.4.0"
@@ -20,12 +26,13 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^20",
+    "@types/node": "^20.19.27",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

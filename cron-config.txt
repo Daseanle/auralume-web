@@ -1,0 +1,35 @@
+# AuraLume 智能博客自动发布系统 - Crontab 配置
+#
+# 使用方法：
+# 1. 编辑 crontab: crontab -e
+# 2. 复制下面的内容到 crontab 文件
+# 3. 修改路径为实际的项目路径
+# 4. 保存退出
+#
+# 时间说明（UTC-8 时区）：
+# - 0 8 * * * = 每天早上 8 点执行
+# - 0 0 * * * = 每天凌晨 0 点执行
+# - 0 */6 * * * = 每 6 小时执行一次
+#
+# ============================================
+
+# 每天早上 8 点自动发布博客（推荐，UTC-8 时区）
+0 8 * * * cd /Volumes/MOVESPEED/下载/AIcode/AuraLume/auralume-web && bash schedule-daily-blog.sh >> /tmp/auralume-blog.log 2>&1
+
+# 每天凌晨 0 点自动发布博客
+# 0 0 * * * cd /Volumes/MOVESPEED/下载/AIcode/AuraLume/auralume-web && bash schedule-daily-blog.sh >> /tmp/auralume-blog.log 2>&1
+
+# 每 6 小时检查一次（确保始终有 3 篇文章）
+# 0 */6 * * * cd /Volumes/MOVESPEED/下载/AIcode/AuraLume/auralume-web && bash schedule-daily-blog.sh >> /tmp/auralume-blog.log 2>&1
+
+# ============================================
+#
+# 查看日志：
+# tail -f /tmp/auralume-blog.log
+#
+# 删除定时任务：
+# crontab -e
+# 然后删除对应的行
+#
+# 列出当前所有定时任务：
+# crontab -l
