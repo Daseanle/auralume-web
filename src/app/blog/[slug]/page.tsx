@@ -186,7 +186,7 @@ export default async function BlogPost({ params }: Props) {
                     {/* Social Share */}
                     <SocialShare
                         title={post.title}
-                        excerpt={post.excerpt}
+                        excerpt={post.excerpt || ''}
                         slug={slug}
                         className="my-12"
                     />
