@@ -11,6 +11,7 @@ export interface BlogPost {
         image: string;
         price: string;
         link: string;
+        description?: string;
     };
 }
 
