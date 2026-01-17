@@ -56,7 +56,7 @@ export async function getAllBlogPosts(): Promise<BlogPost[]> {
 
             // Create excerpt from description or first 150 chars
             const excerpt = data.description ||
-                           content.replace(/[#*`>\-]/g, '').trim().substring(0, 150) + '...';
+                content.replace(/[#*`>\-]/g, '').trim().substring(0, 150) + '...';
 
             posts.push({
                 slug,
@@ -103,7 +103,7 @@ export async function getBlogPostBySlug(slug: string): Promise<BlogPost | null> 
         const { data, content } = matter(fileContent);
 
         const excerpt = data.description ||
-                       content.replace(/[#*`>\-]/g, '').trim().substring(0, 150) + '...';
+            content.replace(/[#*`>\-]/g, '').trim().substring(0, 150) + '...';
 
         return {
             slug,
@@ -282,8 +282,11 @@ export function getRecommendedProduct(post: BlogPost) {
     // Try to match product by category first
     if (post.category && productMap[post.category]) {
         return {
-            ...productMap[post.category],
-            link
+            name: productMap[post.category].name,
+            image: productMap[post.category].image,
+            price: productMap[post.category].price,
+            description: productMap[post.category].description,
+            link: link
         };
     }
 
@@ -291,8 +294,11 @@ export function getRecommendedProduct(post: BlogPost) {
     for (const tag of post.tags) {
         if (productMap[tag]) {
             return {
-                ...productMap[tag],
-                link
+                name: productMap[tag].name,
+                image: productMap[tag].image,
+                price: productMap[tag].price,
+                description: productMap[tag].description,
+                link: link
             };
         }
     }
