@@ -307,19 +307,49 @@ export function getRecommendedProduct(post: BlogPost) {
     const contentLower = post.content.toLowerCase();
 
     if (contentLower.includes('love') || contentLower.includes('relationship') || contentLower.includes('heart')) {
-        return productMap['love manifestation'];
+        return {
+            name: productMap['love manifestation'].name,
+            image: productMap['love manifestation'].image,
+            price: productMap['love manifestation'].price,
+            description: productMap['love manifestation'].description,
+            link: link
+        };
     }
     if (contentLower.includes('protect') || contentLower.includes('shield') || contentLower.includes('ground')) {
-        return productMap['protection'];
+        return {
+            name: productMap['protection'].name,
+            image: productMap['protection'].image,
+            price: productMap['protection'].price,
+            description: productMap['protection'].description,
+            link: link
+        };
     }
     if (contentLower.includes('manifest') || contentLower.includes('abundance') || contentLower.includes('prosper')) {
-        return productMap['manifestation-science'];
+        return {
+            name: productMap['manifestation-science'].name,
+            image: productMap['manifestation-science'].image,
+            price: productMap['manifestation-science'].price,
+            description: productMap['manifestation-science'].description,
+            link: link
+        };
     }
     if (contentLower.includes('diamond') || contentLower.includes('energy') || contentLower.includes('spiritual')) {
-        return productMap['diamond-spirituality'];
+        return {
+            name: productMap['diamond-spirituality'].name,
+            image: productMap['diamond-spirituality'].image,
+            price: productMap['diamond-spirituality'].price,
+            description: productMap['diamond-spirituality'].description,
+            link: link
+        };
     }
     if (contentLower.includes('ritual') || contentLower.includes('meditation') || contentLower.includes('practice')) {
-        return productMap['ritual'];
+        return {
+            name: productMap['ritual'].name,
+            image: productMap['ritual'].image,
+            price: productMap['ritual'].price,
+            description: productMap['ritual'].description,
+            link: link
+        };
     }
 
     // Ultimate fallback - general recommendation
