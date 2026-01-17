@@ -14,7 +14,7 @@ import { useEffect, useState, useRef } from 'react';
 
 export default function ReadingProgress() {
     const [progress, setProgress] = useState(0);
-    const requestRef = useRef<number>();
+    const requestRef = useRef<number | undefined>(undefined);
     const previousScrollRef = useRef<number>(0);
 
     useEffect(() => {
