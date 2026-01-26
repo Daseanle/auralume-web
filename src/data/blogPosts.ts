@@ -19,6 +19,78 @@ export const blogPosts: BlogPost[] = [
     {
         slug: 'karma-free-luxury-the-spiritual-case-for-lab-diamonds-3',
         title: "Karma-Free Luxury: The Spiritual Case for Lab Diamonds",
+        excerpt: "Explore the spiritual significance of Plasma Diamond and how it aligns with ethical luxury in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-26',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>Karma-Free Luxury: The Spiritual Case for Lab Diamonds</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'the-pure-light-frequency-of-plasma-grown-diamonds-2',
+        title: "The Pure Light Frequency of Plasma-Grown Diamonds",
+        excerpt: "Explore the spiritual significance of White Gold and how it aligns with ethical luxury in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-26',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>The Pure Light Frequency of Plasma-Grown Diamonds</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'how-to-program-your-white-gold-for-abundance-1',
+        title: "How to Program Your White Gold for Abundance",
+        excerpt: "Explore the spiritual significance of White Gold and how it aligns with manifestation in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-26',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>How to Program Your White Gold for Abundance</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'karma-free-luxury-the-spiritual-case-for-lab-diamonds-3',
+        title: "Karma-Free Luxury: The Spiritual Case for Lab Diamonds",
         excerpt: "Explore the spiritual significance of Lab Diamond and how it aligns with ethical luxury in the modern age.",
         coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
         publishedAt: '2026-01-25',
