@@ -17,6 +17,78 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        slug: 'why-plasma-diamond-is-the-ultimate-amplifier-for-intentions-3',
+        title: "Why Plasma Diamond is the Ultimate Amplifier for Intentions",
+        excerpt: "Explore the spiritual significance of Plasma Diamond and how it aligns with manifestation in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-28',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>Why Plasma Diamond is the Ultimate Amplifier for Intentions</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'white-gold-the-stone-of-clarity-and-truth-2',
+        title: "White Gold: The Stone of Clarity and Truth",
+        excerpt: "Explore the spiritual significance of White Gold and how it aligns with chakra healing in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-28',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>White Gold: The Stone of Clarity and Truth</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
+        slug: 'lab-diamond-the-stone-of-clarity-and-truth-1',
+        title: "Lab Diamond: The Stone of Clarity and Truth",
+        excerpt: "Explore the spiritual significance of Lab Diamond and how it aligns with chakra healing in the modern age.",
+        coverImage: 'https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?q=80&w=2574&auto=format&fit=crop',
+        publishedAt: '2026-01-28',
+        content: `
+    <p>In the quiet spaces of our lives, we often seek tools to amplify our inner voice. <strong>Lab Diamond: The Stone of Clarity and Truth</strong> is not just a concept; it is a practice. As we move into an era of higher consciousness, the materials we adorn ourselves with matter more than ever.</p>
+    
+    <h2>The Vibration of Purity</h2>
+    <p>Everything is energy. When you choose high-frequency materials like plasma-grown diamonds, you are choosing a path of least resistance. Unlike mined stones that may carry the heavy density of the earth's trauma, these creations are born of light and science—a perfect tabula rasa for your intentions.</p>
+    
+    <h2>A Ritual for Connection</h2>
+    <p>To truly harness this power, one must engage with it consciously. Take a moment today to hold your jewelry. Close your eyes. Breathe. Visualize the light entering the stone and reflecting back into your heart field. This is the essence of true luxury: connection.</p>
+    
+    <p>Your aura is your shield. Let your choices reflect the light you wish to see in the world.</p>
+    `,
+        recommendedProduct: {
+            name: 'The Sovereign Shield Ring',
+            image: 'https://images.unsplash.com/photo-1626027582522-d7b3be617fb8?q=80&w=2548&auto=format&fit=crop',
+            price: '$3,450',
+            link: '/collections/protection'
+        }
+    },
+    {
         slug: 'why-earth-mined-diamonds-carry-trauma-and-how-to-avoid-it-3',
         title: "Why Earth-Mined Diamonds Carry Trauma (And How to Avoid It)",
         excerpt: "Explore the spiritual significance of Rose Gold and how it aligns with ethical luxury in the modern age.",
