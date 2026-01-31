@@ -16,8 +16,9 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://shopauralume.com'),
-  title: "AuraLume | Manifest With Unbreakable Light",
-  description: "Ethically grown, high-frequency lab diamonds. The ultimate amplifier for your soul's intention.",
+  title: "AuraLume | High-Frequency Lab Grown Diamonds & Manifestation Jewelry",
+  description: "Shop ethically grown, high-frequency lab diamonds. AuraLume offers manifestation jewelry and crystal amplifiers for your soul's intention. Discover sustainable brilliance.",
+  keywords: ["lab grown diamonds", "manifestation jewelry", "ethical diamonds", "crystal amplifier", "spiritual jewelry", "sustainable luxury"],
   openGraph: {
     title: "AuraLume | Manifest With Unbreakable Light",
     description: "Ethically grown, high-frequency lab diamonds. The ultimate amplifier for your soul's intention.",
