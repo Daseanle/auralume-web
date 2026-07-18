@@ -21,14 +21,20 @@ export default function AboutPage() {
 
                     <Section
                         title="Why China? The Transparency of Light."
-                        text="We believe in radical transparency. Over 90% of the world's high-quality HPHT diamonds are forged in this specific region, the Global Epicenter of Plasma Innovation. AuraLume is proud to partner with the master craftsmen who lead this revolution. By sourcing directly from this tech-hub, we ensure every stone is conflict-free, carbon-neutral, and forged in a high-vibration environment—free from the shadows of traditional mining."
+                        text="We believe in radical transparency. Over 90% of the world's high-quality HPHT diamonds are forged in this specific region, the Global Epicenter of Plasma Innovation. AuraLume is proud to partner with the master craftsmen who lead this revolution. By sourcing directly from this tech-hub, we ensure every stone is conflict-free, and created with a fraction of the environmental footprint of traditional mining."
                         align="right"
                     />
 
                     <Section
                         title="The Ultimate Amplifier"
-                        text="In metaphysics, the diamond is the 'Master Healer'. Its rigid crystal lattice structure makes it the hardest material in the universe. We view this not just as durability, but as 'unbreakable intention'. When you program a lab-grown diamond with your goal—whether it's love, abundance, or protection—it holds that frequency without the interference of past karmic debt."
+                        text="In many metaphysical traditions, the diamond is called the 'Master Healer'. Its rigid crystal lattice structure makes it the hardest material in the universe. We view this not just as durability, but as 'unbreakable intention'. When you program a lab-grown diamond with your goal—whether it's love, abundance, or protection—it holds that frequency without the interference of past karmic debt."
                         align="left"
+                    />
+
+                    <Section
+                        title="A Note on Our Language"
+                        text="AuraLume's spiritual descriptions reflect metaphysical traditions and personal belief. They are not medical claims, and our jewelry is not intended to diagnose, treat, cure, or prevent any condition. We invite you to wear our pieces in whatever way feels meaningful to you."
+                        align="right"
                     />
 
                     <div className="text-center py-12 border-t border-white/10 mt-12">

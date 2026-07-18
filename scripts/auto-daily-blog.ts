@@ -79,7 +79,7 @@ const PERSONAS: Persona[] = [
         'Wait, don\'t scroll away just yet...',
       ],
       closer: [
-        'Anyway, use it or not - I\'ve already switched to Candy.',
+        'Anyway, use it or not - I\'ve already made the switch to AuraLume.',
         'Don\'t waste your time, just use the alternative I recommend.',
         'If you\'ve been burned too, let me know in the comments - I\'m not alone.',
       ],
@@ -133,8 +133,6 @@ const CTA_TEMPLATES: CTAConfig[] = [
 ✅ Zero loading delays
 ✅ 100% stable performance
 ✅ 24/7 professional technical support
-
-**2,847 users have migrated from {keyword} today**
 `.trim().replace('{keyword}', keyword),
   },
 
@@ -248,7 +246,7 @@ ${this.generateRecommendations()}
 ${cta}
 
 ---
-*This article is based on real search data and market analysis, continuously updated.*
+*This is an AI-assisted draft. Please review, fact-check, and add your own experience before publishing.*
 `;
 
     return content;
@@ -382,66 +380,54 @@ class TrendsFetcher {
   async fetchTrends(): Promise<TrendingTopic[]> {
     // Smart topic library based on real 2026 trends
     const trendingTopics: TrendingTopic[] = [
-      // AI & Automation
+      // AuraLume brand-aligned topics only — no off-topic SEO spam
       {
-        title: 'AI Character Chat Setup Guide 2026',
-        traffic: '150000+',
-        description: 'Complete AI character chat setup tutorial, including Android and iOS configuration',
+        title: 'Lab-Grown Diamond Buying Guide 2026',
+        traffic: 'high',
+        description: 'How to choose a lab-grown diamond: the 4Cs, certification, and what to look for',
         source: 'US',
       },
       {
-        title: 'Crushon AI Review & Best Alternatives',
-        traffic: '120000+',
-        description: 'In-depth Crushon AI review revealing the best alternatives and hidden features',
+        title: 'How to Manifest with Crystal Jewelry',
+        traffic: 'high',
+        description: 'A gentle introduction to setting intentions with your AuraLume pieces',
         source: 'US',
       },
       {
-        title: 'Janitor AI API Integration Tutorial',
-        traffic: '95000+',
-        description: 'Complete Janitor AI API integration guide with hands-on tutorial from scratch',
-        source: 'US',
-      },
-
-      // Web3 & Blockchain
-      {
-        title: 'Web3 Wallet Security Best Practices',
-        traffic: '88000+',
-        description: '2026 Web3 wallet security best practices to protect your digital assets',
+        title: 'Lab-Grown vs Mined Diamonds: The Ethical Choice',
+        traffic: 'medium',
+        description: 'Understanding the environmental and ethical differences between lab and mined diamonds',
         source: 'UK',
       },
       {
-        title: 'DeFi Trading Strategies for Beginners',
-        traffic: '76000+',
-        description: 'Beginner DeFi trading strategies with complete roadmap from entry to profit',
-        source: 'US',
-      },
-
-      // Mobile & Apps
-      {
-        title: 'Silly Tavern Android Setup Guide',
-        traffic: '92000+',
-        description: 'Detailed Silly Tavern Android installation and configuration tutorial with pitfall avoidance',
+        title: 'Birthstone Meanings by Month',
+        traffic: 'medium',
+        description: 'The history and symbolism behind each month’s birthstone',
         source: 'UK',
       },
       {
-        title: 'Mobile App Load Failed Solutions',
-        traffic: '85000+',
-        description: 'Complete troubleshooting handbook for mobile app loading failures',
-        source: 'US',
-      },
-
-      // Tools & Productivity
-      {
-        title: 'Candy AI Alternative Comparison',
-        traffic: '67000+',
-        description: 'Comprehensive Candy AI alternative comparison to find your best fit',
+        title: 'How to Clean and Care for Diamond Jewelry',
+        traffic: 'medium',
+        description: 'Keep your pieces brilliant with safe at-home cleaning and storage tips',
         source: 'US',
       },
       {
-        title: 'Character AI Not Working Fixes',
-        traffic: '71000+',
-        description: 'Quick solution roundup for Character AI not working issues',
+        title: 'Rose Quartz for Love and Self-Worth',
+        traffic: 'medium',
+        description: 'The symbolism of rose quartz and how to wear it with intention',
+        source: 'US',
+      },
+      {
+        title: 'Cleansing and Charging Your Crystals: A Simple Ritual',
+        traffic: 'medium',
+        description: 'Easy, non-medical ways to care for your crystal jewelry',
         source: 'UK',
+      },
+      {
+        title: 'What to Know Before Buying an Engagement Ring',
+        traffic: 'high',
+        description: 'A practical checklist for choosing a meaningful, ethical engagement ring',
+        source: 'US',
       },
     ];
 
