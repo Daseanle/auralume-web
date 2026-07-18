@@ -4,6 +4,7 @@ import Testimonials from "@/components/Testimonials";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
 import NewsletterForm from "@/components/NewsletterForm";
+import TrustBar from "@/components/TrustBar";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
           <NewsletterForm />
         </div>
       </section>
+      <TrustBar />
       <ProductGrid />
       <Testimonials />
       <FAQ />

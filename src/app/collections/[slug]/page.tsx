@@ -5,13 +5,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Sparkles, Heart, Shield, ArrowRight } from "lucide-react";
 import { useCart } from "@/context/CartContext";
+import TrustBar from "@/components/TrustBar";
 
 const collections = {
     abundance: {
         title: "Abundance Collection",
         subtitle: "The North Star",
         description: "Frequency of wealth, success, and clear direction.",
-        longDescription: "Align your energy with prosperity. Our Abundance collection features high-clarity diamonds designed to effectively amplify your intent for career growth and financial freedom. Worn near the throat or heart, these stones act as a constant beacon for your goals.",
+        longDescription: "Align your energy with prosperity. Our Abundance collection features high-clarity diamonds designed to support your intent for career growth and financial freedom. Worn near the throat or heart, these stones act as a constant beacon for your goals.",
         image: "/images/product-necklace.png",
         color: "text-amber-400",
         gradient: "from-amber-900/20 to-cosmos",
@@ -36,7 +37,7 @@ const collections = {
         title: "Love Collection",
         subtitle: "The Heart Core",
         description: "Frequency of connection, compassion, and self-worth.",
-        longDescription: "Open your heart chakra. The Love collection is tuned to the vibration of unconditional love. Whether manifesting a soulmate or deepening self-love, these rose gold and diamond pieces serve as a powerful energetic anchor.",
+        longDescription: "Open your heart chakra. The Love collection is tuned to the vibration of unconditional love. Whether manifesting a soulmate or deepening self-love, these rose gold and diamond pieces serve as a gentle anchor for your intention.",
         image: "/images/product-love.png",
         color: "text-rose-400",
         gradient: "from-rose-900/20 to-cosmos",
@@ -61,7 +62,7 @@ const collections = {
         title: "Protection Collection",
         subtitle: "The Quantum Shield",
         description: "Frequency of safety, grounding, and deflection.",
-        longDescription: "A shield of light. Diamond is the hardest substance known to man. In the Protection collection, we utilize this strength to create energetic barriers against negativity and lower vibrations. Stay grounded and untouched.",
+        longDescription: "A shield of light. Diamond is the hardest substance known to man. In the Protection collection, we utilize this strength to offer a symbolic shield — a quiet reminder to stay grounded and centered.",
         image: "/images/product-red-string.png",
         color: "text-indigo-400",
         gradient: "from-indigo-900/20 to-cosmos",
@@ -157,7 +158,7 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                             </div>
                             <h3 className="font-serif text-lg text-starlight">Diamond Frequency</h3>
                             <p className="text-sm text-starlight/60 max-w-xs font-light">
-                                Every stone is cleansed with 528Hz Solfeggio frequencies before shipping.
+                                Our workspace plays 528Hz Solfeggio tones as part of our setting ritual — a small nod to the intention we put into every piece.
                             </p>
                         </div>
                         <div className="flex flex-col items-center space-y-4">
@@ -166,12 +167,15 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                             </div>
                             <h3 className="font-serif text-lg text-starlight">Indestructible Intention</h3>
                             <p className="text-sm text-starlight/60 max-w-xs font-light">
-                                Diamond is the hardest material, locking your manifestation in place forever.
+                                Diamond is the hardest natural material — a fitting symbol for an intention you want to keep close.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+
+            {/* Trust signals */}
+            <TrustBar />
 
             {/* Products Grid */}
             <section className="max-w-7xl mx-auto px-4 py-20">
@@ -199,6 +203,9 @@ export default function CollectionPage({ params }: { params: Promise<{ slug: str
                             >
                                 Manifest Now
                             </button>
+                            <p className="text-xs text-starlight/50 mt-3 text-center">
+                                or pay in 4 interest-free with Klarna / Shop Pay
+                            </p>
                         </div>
                     ))}
                 </div>
